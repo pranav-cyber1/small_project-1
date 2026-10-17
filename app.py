@@ -479,7 +479,7 @@ if selected_state != "Overall India":
         ("Total Population", format_count(population_total)),
         ("Male Population", format_count(male_population)),
         ("Female Population", format_count(female_population)),
-        ("Sex Ratio (♀ per 1,000 ♂)", sex_ratio_display),
+        ("Sex Ratio (♀ per 100 ♂)", sex_ratio_display),
         ("Literacy Rate", literacy_display),
         ("Districts", f"{state_district_count:,}")
     ]
